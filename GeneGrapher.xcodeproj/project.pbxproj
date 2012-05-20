@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AE7082C1569958E00512BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE7082B1569958E00512BC1 /* UIKit.framework */; };
+		7AE7082E1569958E00512BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE7082D1569958E00512BC1 /* Foundation.framework */; };
+		7AE708361569958E00512BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE708341569958E00512BC1 /* InfoPlist.strings */; };
+		7AE708381569958E00512BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE708371569958E00512BC1 /* main.m */; };
+		7AE7083C1569958E00512BC1 /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7083B1569958E00512BC1 /* GGAppDelegate.m */; };
+		7AE7083F1569958E00512BC1 /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7083E1569958E00512BC1 /* GGViewController.m */; };
+		7AE708421569958E00512BC1 /* GGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE708401569958E00512BC1 /* GGViewController_iPhone.xib */; };
+		7AE708451569958E00512BC1 /* GGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE708431569958E00512BC1 /* GGViewController_iPad.xib */; };
+		7AE7084D1569961E00512BC1 /* GGTiledGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7084C1569961E00512BC1 /* GGTiledGraphView.m */; };
+		7AE70856156996F800512BC1 /* GGDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE70853156996F700512BC1 /* GGDataPoint.m */; };
+		7AE70857156996F800512BC1 /* GGDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE70855156996F800512BC1 /* GGDataSet.m */; };
+		7AE7085C1569971400512BC1 /* chr1.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7085A1569971400512BC1 /* chr1.tsv */; };
+		7AE7085D1569971400512BC1 /* sample.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7085B1569971400512BC1 /* sample.tsv */; };
+		7AE7085F1569991C00512BC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE7085E1569991C00512BC1 /* QuartzCore.framework */; };
+		7AE708611569995600512BC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE708601569995600512BC1 /* CoreGraphics.framework */; };
+		7AE708631569996200512BC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE708621569996200512BC1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AE708271569958E00512BC1 /* GeneGrapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneGrapher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE7082B1569958E00512BC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AE7082D1569958E00512BC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AE708331569958E00512BC1 /* GeneGrapher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeneGrapher-Info.plist"; sourceTree = "<group>"; };
+		7AE708351569958E00512BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AE708371569958E00512BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AE708391569958E00512BC1 /* GeneGrapher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeneGrapher-Prefix.pch"; sourceTree = "<group>"; };
+		7AE7083A1569958E00512BC1 /* GGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
+		7AE7083B1569958E00512BC1 /* GGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
+		7AE7083D1569958E00512BC1 /* GGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGViewController.h; sourceTree = "<group>"; };
+		7AE7083E1569958E00512BC1 /* GGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGViewController.m; sourceTree = "<group>"; };
+		7AE708411569958E00512BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GGViewController_iPhone.xib; sourceTree = "<group>"; };
+		7AE708441569958E00512BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GGViewController_iPad.xib; sourceTree = "<group>"; };
+		7AE7084B1569961E00512BC1 /* GGTiledGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTiledGraphView.h; sourceTree = "<group>"; };
+		7AE7084C1569961E00512BC1 /* GGTiledGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTiledGraphView.m; sourceTree = "<group>"; };
+		7AE70852156996F700512BC1 /* GGDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGDataPoint.h; sourceTree = "<group>"; };
+		7AE70853156996F700512BC1 /* GGDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGDataPoint.m; sourceTree = "<group>"; };
+		7AE70854156996F700512BC1 /* GGDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGDataSet.h; sourceTree = "<group>"; };
+		7AE70855156996F800512BC1 /* GGDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGDataSet.m; sourceTree = "<group>"; };
+		7AE7085A1569971400512BC1 /* chr1.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chr1.tsv; sourceTree = "<group>"; };
+		7AE7085B1569971400512BC1 /* sample.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.tsv; sourceTree = "<group>"; };
+		7AE7085E1569991C00512BC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7AE708601569995600512BC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AE708621569996200512BC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE708241569958E00512BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7085F1569991C00512BC1 /* QuartzCore.framework in Frameworks */,
+				7AE7082C1569958E00512BC1 /* UIKit.framework in Frameworks */,
+				7AE7082E1569958E00512BC1 /* Foundation.framework in Frameworks */,
+				7AE708611569995600512BC1 /* CoreGraphics.framework in Frameworks */,
+				7AE708631569996200512BC1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AE7081C1569958B00512BC1 = {
+			isa = PBXGroup;
+			children = (
+				7AE7085E1569991C00512BC1 /* QuartzCore.framework */,
+				7AE708311569958E00512BC1 /* GeneGrapher */,
+				7AE7082A1569958E00512BC1 /* Frameworks */,
+				7AE708281569958E00512BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE708281569958E00512BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE708271569958E00512BC1 /* GeneGrapher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE7082A1569958E00512BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE708621569996200512BC1 /* QuartzCore.framework */,
+				7AE708601569995600512BC1 /* CoreGraphics.framework */,
+				7AE7082B1569958E00512BC1 /* UIKit.framework */,
+				7AE7082D1569958E00512BC1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AE708311569958E00512BC1 /* GeneGrapher */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7083A1569958E00512BC1 /* GGAppDelegate.h */,
+				7AE7083B1569958E00512BC1 /* GGAppDelegate.m */,
+				7AE70852156996F700512BC1 /* GGDataPoint.h */,
+				7AE70853156996F700512BC1 /* GGDataPoint.m */,
+				7AE70854156996F700512BC1 /* GGDataSet.h */,
+				7AE70855156996F800512BC1 /* GGDataSet.m */,
+				7AE7084B1569961E00512BC1 /* GGTiledGraphView.h */,
+				7AE7084C1569961E00512BC1 /* GGTiledGraphView.m */,
+				7AE7083D1569958E00512BC1 /* GGViewController.h */,
+				7AE7083E1569958E00512BC1 /* GGViewController.m */,
+				7AE708401569958E00512BC1 /* GGViewController_iPhone.xib */,
+				7AE708431569958E00512BC1 /* GGViewController_iPad.xib */,
+				7AE708591569970200512BC1 /* Data */,
+				7AE708321569958E00512BC1 /* Supporting Files */,
+			);
+			path = GeneGrapher;
+			sourceTree = "<group>";
+		};
+		7AE708321569958E00512BC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE708331569958E00512BC1 /* GeneGrapher-Info.plist */,
+				7AE708341569958E00512BC1 /* InfoPlist.strings */,
+				7AE708371569958E00512BC1 /* main.m */,
+				7AE708391569958E00512BC1 /* GeneGrapher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE708591569970200512BC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7085A1569971400512BC1 /* chr1.tsv */,
+				7AE7085B1569971400512BC1 /* sample.tsv */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE708261569958E00512BC1 /* GeneGrapher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE708481569958E00512BC1 /* Build configuration list for PBXNativeTarget "GeneGrapher" */;
+			buildPhases = (
+				7AE708231569958E00512BC1 /* Sources */,
+				7AE708241569958E00512BC1 /* Frameworks */,
+				7AE708251569958E00512BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneGrapher;
+			productName = GeneGrapher;
+			productReference = 7AE708271569958E00512BC1 /* GeneGrapher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE7081E1569958B00512BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7AE708211569958B00512BC1 /* Build configuration list for PBXProject "GeneGrapher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AE7081C1569958B00512BC1;
+			productRefGroup = 7AE708281569958E00512BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE708261569958E00512BC1 /* GeneGrapher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE708251569958E00512BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE708361569958E00512BC1 /* InfoPlist.strings in Resources */,
+				7AE708421569958E00512BC1 /* GGViewController_iPhone.xib in Resources */,
+				7AE708451569958E00512BC1 /* GGViewController_iPad.xib in Resources */,
+				7AE7085C1569971400512BC1 /* chr1.tsv in Resources */,
+				7AE7085D1569971400512BC1 /* sample.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE708231569958E00512BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE708381569958E00512BC1 /* main.m in Sources */,
+				7AE7083C1569958E00512BC1 /* GGAppDelegate.m in Sources */,
+				7AE7083F1569958E00512BC1 /* GGViewController.m in Sources */,
+				7AE7084D1569961E00512BC1 /* GGTiledGraphView.m in Sources */,
+				7AE70856156996F800512BC1 /* GGDataPoint.m in Sources */,
+				7AE70857156996F800512BC1 /* GGDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AE708341569958E00512BC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE708351569958E00512BC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AE708401569958E00512BC1 /* GGViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE708411569958E00512BC1 /* en */,
+			);
+			name = GGViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7AE708431569958E00512BC1 /* GGViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE708441569958E00512BC1 /* en */,
+			);
+			name = GGViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AE708461569958E00512BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AE708471569958E00512BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE708491569958E00512BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeneGrapher/GeneGrapher-Prefix.pch";
+				INFOPLIST_FILE = "GeneGrapher/GeneGrapher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AE7084A1569958E00512BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeneGrapher/GeneGrapher-Prefix.pch";
+				INFOPLIST_FILE = "GeneGrapher/GeneGrapher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE708211569958B00512BC1 /* Build configuration list for PBXProject "GeneGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE708461569958E00512BC1 /* Debug */,
+				7AE708471569958E00512BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE708481569958E00512BC1 /* Build configuration list for PBXNativeTarget "GeneGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE708491569958E00512BC1 /* Debug */,
+				7AE7084A1569958E00512BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AE7081E1569958B00512BC1 /* Project object */;
+}
